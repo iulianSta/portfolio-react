@@ -1,7 +1,7 @@
-import Home from "./Home";
-import About from "./About";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
