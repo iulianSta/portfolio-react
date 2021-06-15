@@ -1,1 +1,16 @@
 // Normalize
+// All elements setup
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Body setup for testing my application
+body {
+  color: cornsilk;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
