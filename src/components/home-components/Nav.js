@@ -1,8 +1,9 @@
+import List from "./List";
 const Nav = () => {
   return (
-    <div>
-      <h1>Nav page</h1>
-    </div>
+    <ul>
+      <List />
+    </ul>
   );
 };
 
