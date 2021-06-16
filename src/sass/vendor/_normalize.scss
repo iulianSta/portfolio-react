@@ -8,8 +8,8 @@
 
 // Body setup for testing my application
 body {
-  color: cornsilk;
-  background-color: cornflowerblue;
+  // color: cornsilk;
+  // background: linear-gradient(to right, blue, yellow, red);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,5 +17,5 @@ body {
 .logo {
   width: 14rem;
   height: 4rem;
-  border-radius: 0.5rem;
+  border-radius: 0.5em;
 }
