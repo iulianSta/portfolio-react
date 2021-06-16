@@ -14,6 +14,11 @@ const Nav = () => {
   // Navigation menu
   return (
     <nav>
+      <div className="bars">
+        <div className="top-bar"></div>
+        <div className="center-bar"></div>
+        <div className="bottom-bar"></div>
+      </div>
       <div>{navMenu}</div>
 
       <Link to="/">

@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <Router>
-      <Menu />
+      <Menu path="/" exact />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
