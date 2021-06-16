@@ -8,8 +8,8 @@
 
 // Body setup for testing my application
 body {
-  // color: cornsilk;
-  // background: linear-gradient(to right, blue, yellow, red);
+  color: snow;
+  background: rgb(19, 18, 18);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,8 @@ body {
 .bottom-bar {
   width: 3rem;
   height: 0.3rem;
-  background-color: black;
+  // background-color: black;
+  background-color: white;
   border-radius: 3rem;
 }
 .top-bar {

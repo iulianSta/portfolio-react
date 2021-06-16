@@ -22,16 +22,16 @@ const Nav = () => {
       <div>{navMenu}</div>
 
       <Link to="/">
-        <li>Home</li>
+        <li key="0">Home</li>
       </Link>
       <Link to="/about">
-        <li>About me</li>
+        <li key="1">About me</li>
       </Link>
       <Link to="/projects">
-        <li>Projects</li>
+        <li key="2">Projects</li>
       </Link>
       <Link to="/contact">
-        <li>Contact</li>
+        <li key="3">Contact</li>
       </Link>
     </nav>
   );
