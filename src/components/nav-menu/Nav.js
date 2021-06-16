@@ -8,7 +8,7 @@ const Nav = () => {
   const navMenu = Logo.map((obj) => {
     const { img } = obj;
     console.log(img);
-    return <img src={img} alt="Iulian Stan Logo" />;
+    return <img className="logo" src={img} alt="Iulian Stan Logo" />;
   });
 
   // Navigation menu
