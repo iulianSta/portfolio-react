@@ -1,12 +1,10 @@
-// Import area
-import Main from "./home-components/Main";
-
-// Home function
+// Home funcrion
 const Home = () => {
   return (
     <div>
-      <h1>Home page</h1>
-      <Main />
+      <h3>Hi, I'm Iulian Stan</h3>
+      <p>Former military policeman</p>
+      <p>Current web developer student</p>
     </div>
   );
 };
