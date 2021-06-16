@@ -5,10 +5,12 @@ import Logo from "../../logo.json";
 
 // Nav function
 const Nav = () => {
+  const { id, img } = Logo;
+  console.log(Logo);
   // Navigation menu
   return (
     <nav>
-      <img src={Logo} alt="Iulian Stan Logo" />
+      <img id={id} src={img} alt="Iulian Stan Logo" />
       <Link to="/">
         <li>Home</li>
       </Link>
