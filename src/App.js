@@ -17,7 +17,7 @@ function App() {
         <Route path="/about" exact component={About} />
         <Route path="/projects" exact component={Projects} />
         <Route path="/contact" exact component={Contact} />
-        <Route path={() => "/home" || "/admin" || "/any-other-word"} />
+        {/* <Route path={() => "/home" || "/admin" || "/any-other-word"} /> */}
       </Switch>
     </Router>
   );

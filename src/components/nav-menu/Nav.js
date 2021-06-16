@@ -5,12 +5,21 @@ import Logo from "../../logo.json";
 
 // Nav function
 const Nav = () => {
-  const { id, img } = Logo;
-  console.log(Logo);
+  const navMenu = Logo.map((obj) => {
+    const { id, img } = obj;
+    console.log(img);
+    return (
+      <div>
+        <img key={id} src={img} alt="Iulian Stan Logo" />
+      </div>
+    );
+  });
+
   // Navigation menu
   return (
     <nav>
-      <img id={id} src={img} alt="Iulian Stan Logo" />
+      <div>{navMenu}</div>
+
       <Link to="/">
         <li>Home</li>
       </Link>
