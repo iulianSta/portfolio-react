@@ -1,10 +1,14 @@
+// Import area
 import List from "./List";
+
+// Nav function
 const Nav = () => {
   return (
-    <ul>
+    <nav>
       <List />
-    </ul>
+    </nav>
   );
 };
 
+// Nav export
 export default Nav;
