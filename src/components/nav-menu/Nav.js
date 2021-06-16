@@ -6,13 +6,9 @@ import Logo from "../../logo.json";
 // Nav function
 const Nav = () => {
   const navMenu = Logo.map((obj) => {
-    const { id, img } = obj;
+    const { img } = obj;
     console.log(img);
-    return (
-      <div>
-        <img key={id} src={img} alt="Iulian Stan Logo" />
-      </div>
-    );
+    return <img src={img} alt="Iulian Stan Logo" />;
   });
 
   // Navigation menu
