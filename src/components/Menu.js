@@ -4,9 +4,9 @@ import Nav from "./nav-menu/Nav";
 // Menu function
 const Menu = () => {
   return (
-    <div>
+    <nav>
       <Nav />
-    </div>
+    </nav>
   );
 };
 

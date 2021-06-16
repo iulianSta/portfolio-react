@@ -1,13 +1,11 @@
-// Import area
-import List from "./List";
-
 // Nav function
 const Nav = () => {
-  return (
-    <nav>
-      <List />
-    </nav>
-  );
+  // Navigation menu
+  const menu = ["Home", "About me", "Projects", "Contact"];
+
+  const navBar = menu.map((el, i) => <li key={i}>{el}</li>);
+
+  return <ul>{navBar}</ul>;
 };
 
 // Nav export
