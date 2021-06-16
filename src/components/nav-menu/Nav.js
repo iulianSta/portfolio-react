@@ -1,12 +1,14 @@
 // Import area
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../../logo.json";
 
 // Nav function
 const Nav = () => {
   // Navigation menu
   return (
     <nav>
+      <img src={Logo} alt="Iulian Stan Logo" />
       <Link to="/">
         <li>Home</li>
       </Link>
