@@ -1,3 +1,4 @@
+// About function
 const About = () => {
   return (
     <div className="about">
@@ -28,4 +29,5 @@ const About = () => {
   );
 };
 
+// About export
 export default About;
