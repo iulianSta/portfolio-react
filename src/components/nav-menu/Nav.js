@@ -6,9 +6,8 @@ import Logo from "../../logo.json";
 // Nav function
 const Nav = () => {
   const navMenu = Logo.map((obj) => {
-    const { img } = obj;
-    console.log(img);
-    return <img className="logo" src={img} alt="Iulian Stan Logo" />;
+    const { id, img } = obj;
+    return <img key={id} className="logo" src={img} alt="Iulian Stan Logo" />;
   });
 
   // Navigation menu
@@ -19,20 +18,22 @@ const Nav = () => {
         <div className="center-bar"></div>
         <div className="bottom-bar"></div>
       </div>
-      <div>{navMenu}</div>
 
-      <Link to="/">
-        <li key="0">Home</li>
-      </Link>
-      <Link to="/about">
-        <li key="1">About me</li>
-      </Link>
-      <Link to="/projects">
-        <li key="2">Projects</li>
-      </Link>
-      <Link to="/contact">
-        <li key="3">Contact</li>
-      </Link>
+      <div>{navMenu}</div>
+      <ul>
+        <Link to="/">
+          <li>Home</li>
+        </Link>
+        <Link to="/about">
+          <li>About me</li>
+        </Link>
+        <Link to="/projects">
+          <li>Projects</li>
+        </Link>
+        <Link to="/contact">
+          <li>Contact</li>
+        </Link>
+      </ul>
     </nav>
   );
 };
