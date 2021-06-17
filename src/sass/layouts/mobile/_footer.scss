@@ -1,0 +1,5 @@
+// Footer setup
+.footer {
+  @include flex;
+  justify-content: space-around;
+}
