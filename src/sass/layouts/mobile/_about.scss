@@ -3,4 +3,16 @@
   @include flex;
   flex-direction: column;
   margin: 1em;
+
+  .a-para {
+    margin: 0.5em;
+  }
+
+  .a-span {
+    margin-bottom: 1em;
+    color: rgb(103, 204, 2);
+  }
+  :link {
+    text-decoration: none;
+  }
 }
