@@ -5,9 +5,7 @@
 
 // Bars menu setup
 .bars {
-  width: 3rem;
-  height: 1.6rem;
-  margin: 1.5rem;
+  @include bars;
 }
 .top-bar,
 .center-bar,
