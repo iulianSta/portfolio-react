@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div>
+    <div className="about">
       <h1>About me...</h1>
       <p>
         After 10 years of military career in the Romanian Army
