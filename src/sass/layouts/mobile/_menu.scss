@@ -2,3 +2,29 @@
 .logo {
   @include logo;
 }
+
+// Bars menu setup
+.bars {
+  width: 3rem;
+  height: 1.6rem;
+  margin: 1.5rem;
+}
+.top-bar,
+.center-bar,
+.bottom-bar {
+  width: 3rem;
+  height: 0.3rem;
+  // background-color: black;
+  background-color: white;
+  border-radius: 3rem;
+}
+.top-bar {
+  width: 1.5rem;
+}
+.center-bar {
+  margin: 0.3rem 0 0.3rem 0;
+}
+.bottom-bar {
+  width: 1.5rem;
+  float: right;
+}
