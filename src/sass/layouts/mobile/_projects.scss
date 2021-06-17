@@ -1,0 +1,5 @@
+// Projects setup
+.projects {
+  @include flex;
+  flex-direction: column;
+}
