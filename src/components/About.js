@@ -13,7 +13,11 @@ const About = () => {
         myself a chance to change my career. I’m currently a student
         <br />
         and I'm learning web development at{" "}
-        <a href="http://www.digitalcareerinstitute.org" target="blank">
+        <a
+          className="a-link"
+          href="http://www.digitalcareerinstitute.org"
+          target="blank"
+        >
           <strong>DCI Digital Career Institute</strong>
         </a>
         .

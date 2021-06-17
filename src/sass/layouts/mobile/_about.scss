@@ -10,9 +10,10 @@
 
   .a-span {
     margin-bottom: 1em;
-    color: rgb(103, 204, 2);
+    color: $my-green;
   }
   :link {
     text-decoration: none;
+    color: grey;
   }
 }
