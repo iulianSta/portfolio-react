@@ -1,10 +1,14 @@
 // Import area
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../logo.json";
 
 // Nav function
 const Nav = () => {
+  const [hide, setHide] = useState(true);
+  const hideMenu = (hide) => {
+    return hide ? hide : setHide(false);
+  };
   const navMenu = Logo.map((obj) => {
     const { id, img } = obj;
     return <img key={id} className="logo" src={img} alt="Iulian Stan Logo" />;
@@ -13,14 +17,14 @@ const Nav = () => {
   // Navigation menu
   return (
     <nav>
-      <div className="bars">
+      <div className="bars" onClick={hideMenu}>
         <div className="top-bar"></div>
         <div className="center-bar"></div>
         <div className="bottom-bar"></div>
       </div>
 
       <div>{navMenu}</div>
-      <ul>
+      <ul hide={hide} className="nav-ul">
         <Link to="/home">
           <li>Home</li>
         </Link>
