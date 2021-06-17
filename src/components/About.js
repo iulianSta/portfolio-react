@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="about">
       <h1>About me...</h1>
-      <p>
+      <p className="a-para">
         After 10 years of military career in the Romanian Army
         <br />
         I decided to change my lifestyle, moving with my family to
@@ -17,8 +17,8 @@ const About = () => {
         </a>
         .
       </p>
-      <p>
-        <span>Some of my hobbies are:</span>
+      <p className="a-para">
+        <span className="a-span">Some of my hobbies are:</span>
         <br />
         coding, music, photography, cars, fishing,traveling,
         <br />
