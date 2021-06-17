@@ -1,0 +1,8 @@
+.contact {
+  @include flex;
+  flex-direction: column;
+
+  .c-para {
+    margin: 2em;
+  }
+}
