@@ -1,3 +1,4 @@
+// Projects function
 const Projects = () => {
   return (
     <div className="projects">
@@ -6,4 +7,5 @@ const Projects = () => {
   );
 };
 
+// Projects export
 export default Projects;
