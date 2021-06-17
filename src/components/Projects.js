@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
-    <div>
-      <h1>Projects page</h1>
+    <div className="projects">
+      <h1>My projects</h1>
     </div>
   );
 };
