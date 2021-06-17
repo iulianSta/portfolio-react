@@ -1,10 +1,10 @@
 // Home funcrion
 const Home = () => {
   return (
-    <div>
-      <h1>Hi, I'm Iulian Stan</h1>
-      <p>Former military policeman</p>
-      <p>Current web developer student</p>
+    <div className="home">
+      <h1 className="h-header">Hi, I'm Iulian Stan</h1>
+      <p className="h-para">Former military policeman</p>
+      <p className="h-para">Current web developer student</p>
     </div>
   );
 };
