@@ -21,7 +21,7 @@ const Nav = () => {
 
       <div>{navMenu}</div>
       <ul>
-        <Link to="/">
+        <Link to="/home">
           <li>Home</li>
         </Link>
         <Link to="/about">
