@@ -1,0 +1,5 @@
+// Home setup
+.home {
+  @include flex;
+  flex-direction: column;
+}
