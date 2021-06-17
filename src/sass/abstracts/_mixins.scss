@@ -9,3 +9,9 @@
   width: 10rem;
   height: 3rem;
 }
+
+@mixin bars {
+  width: 3rem;
+  height: 1.6rem;
+  margin: 1.5rem;
+}
