@@ -26,3 +26,36 @@
   width: $small-width;
   float: right;
 }
+
+// Menu setup
+nav {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  ul {
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid red;
+    position: absolute;
+    top: 0;
+  }
+  li {
+    border: 2px solid white;
+    position: relative;
+    top: 10rem;
+    right: 2rem;
+    width: 17rem;
+    height: 1.5rem;
+    margin: 2em;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
