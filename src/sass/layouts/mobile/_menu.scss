@@ -28,35 +28,47 @@
 }
 
 // Menu setup
+
 nav {
   width: 100vw;
-  height: 10vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  height: 100vh;
+
+  .top-menu {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   ul {
     width: 100vw;
-    height: 100vh;
-    border: 2px solid red;
-    position: absolute;
-    top: 0;
-
-    :link {
-      text-decoration: none;
-    }
-  }
-  li {
-    border: 2px solid $white;
+    height: 90vh;
     position: relative;
-    top: 10rem;
+    top: 0;
+    transition: 1s;
+    // background-color: rgb(19, 18, 18);
+    border: red 2px solid;
+  }
+  // .show ul {
+  //   display: block;
+  // }
+  :link {
+    text-decoration: none;
+  }
+
+  li {
+    font-weight: bold;
+    position: relative;
+    top: 12rem;
     right: 2rem;
-    width: 17rem;
+    width: 17.2rem;
     height: 1.5rem;
     margin: 2em;
     list-style: none;
     text-align: center;
     color: $white;
-    transition: 0.5s;
+    z-index: 1;
 
     &:hover {
       background-color: $white;
@@ -64,6 +76,8 @@ nav {
     }
   }
 }
-.nav-ul.hide {
+
+.hide {
   display: none;
+  transition: 1s;
 }
