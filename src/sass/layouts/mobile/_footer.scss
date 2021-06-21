@@ -1,5 +1,9 @@
 // Footer setup
 .footer {
   @include flex;
-  justify-content: space-around;
+  flex-direction: column;
+
+  h5 {
+    text-align: center;
+  }
 }
