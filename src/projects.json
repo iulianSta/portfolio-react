@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "skill": "link",
+    "skill": "https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=Linux&logoColor=yellow&color=success",
     "cardImg": "card link"
   }
 ]
