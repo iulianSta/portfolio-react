@@ -102,9 +102,8 @@ nav {
 }
 
 .hide {
-  // display: none;
-  // transition: 1s;
   animation: backslide 1s forwards;
+
   li {
     opacity: 1;
     animation: nopac 0.5s forwards;
