@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+
+    "img": "./images/instagram.png"
+  },
+  {
+    "id": 1,
+
+    "img": "./images/mobile-app.png"
+  },
+  {
+    "id": 2,
+
+    "img": "./images/password-generator.png"
+  },
+  {
+    "id": 3,
+
+    "img": "./images/digital-clock.png"
+  },
+  {
+    "id": 4,
+
+    "img": "./images/stopwatch.png"
+  },
+  {
+    "id": 5,
+
+    "img": "./images/chessboard.png"
+  },
+  {
+    "id": 6,
+
+    "img": "./images/gallery-app.png"
+  },
+  {
+    "id": 7,
+
+    "img": "./images/country.png"
+  },
+  {
+    "id": 8,
+
+    "img": "./images/flavours.png"
+  },
+  {
+    "id": 9,
+
+    "img": "./images/image-reveal.png"
+  },
+  {
+    "id": 10,
+
+    "img": "./images/login-app.png"
+  },
+  {
+    "id": 11,
+
+    "img": "./images/morse.png"
+  },
+  {
+    "id": 12,
+
+    "img": "./images/number-converter.png"
+  },
+  {
+    "id": 13,
+
+    "img": "./images/penguin.png"
+  },
+  {
+    "id": 14,
+
+    "img": "./images/periodic-table.png"
+  },
+  {
+    "id": 15,
+
+    "img": "./images/todo-app.png"
+  },
+  {
+    "id": 16,
+
+    "img": "./images/tictactoe.png"
+  },
+  {
+    "id": 17,
+
+    "img": "./images/youtube.png"
+  }
+]

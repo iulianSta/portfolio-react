@@ -31,3 +31,22 @@
   justify-content: center;
   align-items: center;
 }
+
+.project-img {
+  width: 90vw;
+  margin: 1em 0 1em 0.9em;
+  padding: 0.3em;
+  border: blueviolet 0.5px solid;
+
+  border-radius: 10px;
+}
+.gotop {
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+  }
+  margin-bottom: 1rem;
+  padding: 0.3em;
+  scroll-behavior: smooth;
+}

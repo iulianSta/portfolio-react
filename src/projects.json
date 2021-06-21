@@ -17,7 +17,7 @@
   {
     "id": 3,
     "skill": "https://img.shields.io/badge/Markup_lang-HTML-informational?style=flat&logo=HTML5&logoColor=red&color=blueviolet",
-    "cardImg": "card link"
+    "img": "./images/digital-clock.png"
   },
   {
     "id": 4,
@@ -40,12 +40,12 @@
     "cardImg": "card link"
   },
   {
-    "id": 6,
+    "id": 8,
     "skill": "https://img.shields.io/badge/Web_application_framework-Express-informational?style=flat&logo=Express&logoColor=black&color=blueviolet",
     "cardImg": "card link"
   },
   {
-    "id": 6,
+    "id": 9,
     "skill": "https://img.shields.io/badge/NoSQL_database-mongoDB-informational?style=flat&logo=mongoDB&logoColor=green&color=blueviolet",
     "cardImg": "card link"
   }
