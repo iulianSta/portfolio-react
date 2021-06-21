@@ -10,6 +10,15 @@ const Contact = () => {
         <br />
         <strong>iulianstangithub@gmail.com</strong>
       </p>
+      <fieldset>
+        <legend>You can also send me a direct message:</legend>
+        <form>
+          <input type="text" />
+          <input type="email" />
+          <textarea type="text" />
+          <button type="submit">Send</button>
+        </form>
+      </fieldset>
     </div>
   );
 };
