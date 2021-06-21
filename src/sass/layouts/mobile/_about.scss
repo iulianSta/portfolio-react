@@ -1,5 +1,6 @@
 // About setup
 .about {
+  height: 70vh;
   @include flex;
   flex-direction: column;
   margin: 1em;
