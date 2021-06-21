@@ -1,7 +1,52 @@
 [
   {
     "id": 0,
-    "skill": "https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=Linux&logoColor=yellow&color=success",
+    "skill": "https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=Linux&logoColor=yellow&color=blueviolet",
+    "cardImg": "card link"
+  },
+  {
+    "id": 1,
+    "skill": "https://img.shields.io/badge/Editor-VS_Code-informational?style=flat&logo=Visual-Studio-Code&logoColor=blue&color=blueviolet",
+    "cardImg": "card link"
+  },
+  {
+    "id": 2,
+    "skill": "https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=JavaScript&logoColor=yellow&color=blueviolet",
+    "cardImg": "card link"
+  },
+  {
+    "id": 3,
+    "skill": "https://img.shields.io/badge/Markup_lang-HTML-informational?style=flat&logo=HTML5&logoColor=red&color=blueviolet",
+    "cardImg": "card link"
+  },
+  {
+    "id": 4,
+    "skill": "https://img.shields.io/badge/Style_sheet_lang-CSS-informational?style=flat&logo=CSS3&logoColor=skyblue&color=blueviolet",
+    "cardImg": "card link"
+  },
+  {
+    "id": 5,
+    "skill": "https://img.shields.io/badge/Css_extension_lang-SASS-informational?style=flat&logo=SASS&logoColor=violet&color=blueviolet",
+    "cardImg": "card link"
+  },
+  {
+    "id": 6,
+    "skill": "https://img.shields.io/badge/JavaScript_engine-Node.js-informational?style=flat&logo=Node.js&logoColor=green&color=blueviolet",
+    "cardImg": "card link"
+  },
+  {
+    "id": 7,
+    "skill": "https://img.shields.io/badge/JavaScript_library-React-informational?style=flat&logo=React&logoColor=aqua&color=blueviolet",
+    "cardImg": "card link"
+  },
+  {
+    "id": 6,
+    "skill": "https://img.shields.io/badge/Web_application_framework-Express-informational?style=flat&logo=Express&logoColor=black&color=blueviolet",
+    "cardImg": "card link"
+  },
+  {
+    "id": 6,
+    "skill": "https://img.shields.io/badge/NoSQL_database-mongoDB-informational?style=flat&logo=mongoDB&logoColor=green&color=blueviolet",
     "cardImg": "card link"
   }
 ]

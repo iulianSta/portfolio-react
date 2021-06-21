@@ -100,14 +100,17 @@ nav {
     // }
   }
 }
-
 .hide {
+  opacity: 0;
   animation: backslide 1s forwards;
-
   li {
     opacity: 1;
     animation: nopac 0.5s forwards;
   }
+}
+
+.show {
+  opacity: 1;
 }
 
 @keyframes slide {

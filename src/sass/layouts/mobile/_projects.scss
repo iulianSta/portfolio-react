@@ -4,5 +4,30 @@
   flex-direction: column;
   h1 {
     margin-top: 1em;
+    padding: 0.5em;
+    border-top: green 0.5px solid;
+    border-left: green 0.5px solid;
   }
+  h3 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}
+
+.skill-logo {
+  width: 40vw;
+  height: 5vh;
+  margin: 0.7em;
+}
+
+.logo-container {
+  width: 95vw;
+  margin: 1rem 0;
+  padding: 1em;
+  border: green 0.5px solid;
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
 }
