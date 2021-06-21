@@ -6,9 +6,11 @@ import Logo from "../../logo.json";
 // Nav function
 const Nav = () => {
   const [show, setShow] = useState(false);
+  const [bars, setBars] = useState(true);
 
   const hideNav = () => {
     setShow(!show);
+    setBars(!bars);
   };
 
   const navLogo = Logo.map((obj) => {
@@ -18,16 +20,16 @@ const Nav = () => {
 
   // Navigation menu
   return (
-    <nav>
+    <div>
       <div className="top-menu">
-        <div className="bars" onClick={hideNav}>
+        <div className={bars ? "bars" : "bars xmenu"} onClick={hideNav}>
           <div className="top-bar"></div>
           <div className="center-bar"></div>
           <div className="bottom-bar"></div>
         </div>
         <div>{navLogo}</div>
       </div>
-      <ul className={show ? show : "hide"}>
+      <ul className={show ? "show" : "hide"}>
         <Link to="/">
           <li onClick={hideNav}>Home</li>
         </Link>
@@ -41,7 +43,7 @@ const Nav = () => {
           <li onClick={hideNav}>Contact</li>
         </Link>
       </ul>
-    </nav>
+    </div>
   );
 };
 
