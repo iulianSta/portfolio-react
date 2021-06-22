@@ -1,5 +1,18 @@
+// Import area
+import React, { useState } from "react";
+
 // Contact function
 const Contact = () => {
+  const [userInput, setUserInput] = useState("");
+
+  function changeHandle(e) {
+    setUserInput(e.target.value);
+  }
+
+  function submitHandle(e) {
+    e.preventDefault();
+    setUserInput("");
+  }
   return (
     <div className="contact">
       <h1 className="c-header">Contact me...</h1>
@@ -12,10 +25,15 @@ const Contact = () => {
       </p>
       <fieldset>
         <legend>You can also send me a direct message:</legend>
-        <form>
-          <input type="text" />
-          <input type="email" />
-          <textarea type="text" />
+        <form onSubmit={submitHandle}>
+          <input
+            type="text"
+            value={userInput}
+            onChange={changeHandle}
+            placeholder="Name"
+          />
+          <input type="email" placeholder="E-Mail" />
+          <textarea type="text" placeholder="Your message" />
           <button type="submit">Send</button>
         </form>
       </fieldset>
