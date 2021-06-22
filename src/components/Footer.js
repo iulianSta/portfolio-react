@@ -1,13 +1,28 @@
+// Import area
+import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 // Footer function
 const Footer = () => {
   let date = new Date();
   let year = date.getFullYear();
   return (
     <div className="footer">
-      <div>
-        <span>LinkedIn</span>
-        <span>GitHub</span>
-        <span>Gmail</span>
+      <div className="icons">
+        <span>
+          <a
+            href="https://www.linkedin.com/in/iulian-stan-46596b1bb/"
+            target="blank"
+          >
+            <FaLinkedin /> LinkedIn
+          </a>
+        </span>
+        <span>
+          <a href="https://github.com/iulianSta" target="blank">
+            {" "}
+            <FaGithub /> GitHub
+          </a>
+        </span>
       </div>
       <h5>
         <span>Made with ❤️ by Iulian Stan </span>
