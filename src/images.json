@@ -1,92 +1,146 @@
 [
   {
     "id": 0,
-
-    "img": "./images/instagram.png"
+    "name": "Instagram Clone",
+    "img": "./images/instagram.png",
+    "infos": "Instagram Clone page made with React and Sass",
+    "git": "https://github.com/iulianSta/instagram-clone",
+    "link": "https://iuliansta.github.io/instagram-clone/"
   },
   {
     "id": 1,
-
-    "img": "./images/mobile-app.png"
+    "name": "Mobile App",
+    "img": "./images/mobile-app.png",
+    "infos": "Mobile App page made with Html and Sass",
+    "git": "https://github.com/iulianSta/mobile-app",
+    "link": "https://iuliansta.github.io/mobile-app/"
   },
   {
     "id": 2,
-
-    "img": "./images/password-generator.png"
+    "name": "Password Generator",
+    "img": "./images/password-generator.png",
+    "infos": "Password Generator page made with Html, JavaScript and Sass",
+    "git": "https://github.com/iulianSta/passGen",
+    "link": "https://iuliansta.github.io/passGen/"
   },
   {
     "id": 3,
-
-    "img": "./images/digital-clock.png"
+    "name": "Digital Clock",
+    "img": "./images/digital-clock.png",
+    "infos": "Digital Clock page made with Html, JavaScript and Sass",
+    "git": "https://github.com/iulianSta/digital-clock",
+    "link": "https://iuliansta.github.io/digital-clock/"
   },
   {
     "id": 4,
-
-    "img": "./images/stopwatch.png"
+    "name": "Stopwatch",
+    "img": "./images/stopwatch.png",
+    "infos": "Vanilla JavaScript Stopwatch App page made with Html, JavaScript and Sass",
+    "git": "https://github.com/iulianSta/stopwatch",
+    "link": "https://iuliansta.github.io/stopwatch/"
   },
   {
     "id": 5,
-
-    "img": "./images/chessboard.png"
+    "name": "Chessboard",
+    "img": "./images/chessboard.png",
+    "infos": "Chessboard page made with Html and CSS",
+    "git": "https://github.com/iulianSta/chessboard",
+    "link": "https://iuliansta.github.io/chessboard/"
   },
   {
     "id": 6,
-
-    "img": "./images/gallery-app.png"
+    "name": "Gallery App",
+    "img": "./images/gallery-app.png",
+    "infos": "Gallery App page made with Html and CSS",
+    "git": "",
+    "link": ""
   },
   {
     "id": 7,
-
-    "img": "./images/country.png"
+    "name": "Country App",
+    "img": "./images/country.png",
+    "infos": "Instagram Clone page made with React and Sass",
+    "git": "https://github.com/iulianSta/gallery-images",
+    "link": "https://iuliansta.github.io/gallery-images/"
   },
   {
     "id": 8,
-
-    "img": "./images/flavours.png"
+    "name": "Flavours of Turkey",
+    "img": "./images/flavours.png",
+    "infos": "Coffee product web page  made with Html, JavaScript, Bootstrap and CSS",
+    "git": "https://github.com/iulianSta/flavours-of-turkey",
+    "link": "https://iuliansta.github.io/flavours-of-turkey/"
   },
   {
     "id": 9,
-
-    "img": "./images/image-reveal.png"
+    "name": "Image Reveal",
+    "img": "./images/image-reveal.png",
+    "infos": "Reveal a image when you drag a slider, old image vs. new image page made with Html, JavaScript and CSS",
+    "git": "https://github.com/iulianSta/image-reveal",
+    "link": "https://iuliansta.github.io/image-reveal/"
   },
   {
     "id": 10,
-
-    "img": "./images/login-app.png"
+    "name": "Login App",
+    "img": "./images/login-app.png",
+    "infos": "Login mobile App page made with Html, JavaScript and Sass",
+    "git": "https://github.com/iulianSta/login-app",
+    "link": "https://iuliansta.github.io/login-app/"
   },
   {
     "id": 11,
-
-    "img": "./images/morse.png"
+    "name": "Morse Translator",
+    "img": "./images/morse.png",
+    "infos": "Text to Morse code translator App page made with Html, JavaScript and Sass",
+    "git": "https://github.com/iulianSta/text-to-morse",
+    "link": "https://iuliansta.github.io/text-to-morse/"
   },
   {
     "id": 12,
-
-    "img": "./images/number-converter.png"
+    "name": "Number Converter",
+    "img": "./images/number-converter.png",
+    "infos": "Number converter from decimal to binary and hexadecimal page made with Html, JavaScript and Sass",
+    "git": "https://github.com/iulianSta/number-converter",
+    "link": "https://iuliansta.github.io/number-converter/"
   },
   {
     "id": 13,
-
-    "img": "./images/penguin.png"
+    "name": "Penguin Animation",
+    "img": "./images/penguin.png",
+    "infos": "Penguin waving animation page made with Html and CSS",
+    "git": "https://github.com/iulianSta/penguin-app",
+    "link": "https://iuliansta.github.io/penguin-app/"
   },
   {
     "id": 14,
-
-    "img": "./images/periodic-table.png"
+    "name": "Periodic Table",
+    "img": "./images/periodic-table.png",
+    "infos": "Periodic Table page made with Html and CSS",
+    "git": "https://github.com/iulianSta/periodic-table",
+    "link": "https://iuliansta.github.io/periodic-table/"
   },
   {
     "id": 15,
-
-    "img": "./images/todo-app.png"
+    "name": "To-Do App",
+    "img": "./images/todo-app.png",
+    "infos": "To-do App page made with Html, JavaScript and Sass",
+    "git": "https://github.com/iulianSta/todoapp",
+    "link": "https://iuliansta.github.io/todoapp/"
   },
   {
     "id": 16,
-
-    "img": "./images/tictactoe.png"
+    "name": "Tic-Tac-Toe",
+    "img": "./images/tictactoe.png",
+    "infos": "Tic Tac Toe mini game project using Html, Vanilla JavaScript and Sass",
+    "git": "https://github.com/iulianSta/tic-tac-toe",
+    "link": "https://iuliansta.github.io/tic-tac-toe/"
   },
   {
     "id": 17,
-
-    "img": "./images/youtube.png"
+    "name": "YouTube Clone",
+    "img": "./images/youtube.png",
+    "infos": "YouTube Clone page made with Html, JavaScript and Sass",
+    "git": "https://github.com/iulianSta/youTube-clone",
+    "link": "https://iuliansta.github.io/youTube-clone/"
   }
 ]

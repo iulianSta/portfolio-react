@@ -11,8 +11,24 @@ const Projects = () => {
   });
 
   const insertImages = Images.map((obj) => {
-    const { id, img } = obj;
-    return <img key={id} className="project-img" src={img} alt="Projects" />;
+    const { id, name, img, infos, git, link } = obj;
+    return (
+      <div key={id} className="card">
+        <h4>{name}</h4>
+        <img className="project-img" src={img} alt="Projects" />
+        <p>{infos}</p>
+        <button>
+          <a href={git} target="blank">
+            Code
+          </a>
+        </button>
+        <button>
+          <a href={link} target="blank">
+            Go to project
+          </a>
+        </button>
+      </div>
+    );
   });
 
   return (
@@ -21,9 +37,7 @@ const Projects = () => {
       <h3>After I learned:</h3>
       <div className="logo-container">{addSkillz}</div>
       <h3>I was able to do the following projects:</h3>
-      <div className="cards">
-        <div className="card">{insertImages}</div>
-      </div>
+      <div className="cards">{insertImages}</div>
       <button className="gotop">
         <a href="#top">⬆️ Top</a>
       </button>

@@ -662,6 +662,7 @@ template {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 // Body setup for testing my application
@@ -670,5 +671,4 @@ body {
   height: 100vh;
   color: snow;
   background: rgb(19, 18, 18);
-  scroll-behavior: smooth;
 }

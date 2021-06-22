@@ -10,7 +10,7 @@
   }
   h3 {
     text-align: center;
-    margin-bottom: 1em;
+    margin: 1em 0;
   }
 }
 
@@ -33,9 +33,9 @@
 }
 
 .project-img {
-  width: 90vw;
+  width: 60vw;
   margin: 1em 0 1em 0.9em;
-  padding: 0.3em;
+  padding: 0.5em;
   border: blueviolet 0.5px solid;
 
   border-radius: 10px;
@@ -46,7 +46,33 @@
     font-weight: bold;
     color: blueviolet;
   }
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   padding: 0.3em;
-  scroll-behavior: smooth;
+}
+.cards {
+  @include flex;
+  flex-direction: column;
+  width: 95vw;
+  margin: 0.5em;
+  border: blueviolet 0.5px solid;
+}
+.card {
+  width: 80vw;
+  @include flex;
+  flex-direction: column;
+  text-align: center;
+  border: green 0.5px solid;
+  margin: 1em;
+  padding: 0.5em;
+
+  p,
+  button {
+    margin: 0.5em 0;
+  }
+  a {
+    margin: 0.5em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
 }
