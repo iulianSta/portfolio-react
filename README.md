@@ -16,11 +16,11 @@ Custom single page web developer personal portfolio
 
 ## Resources used to build this portfolio:
 
- [![Build Status](https://img.shields.io/badge/JavaScript_library-React-informational?style=flat&logo=React&logoColor=aqua&color=blueviolet)
- [![Build Status](https://img.shields.io/badge/JavaScript_engine-Node.js-informational?style=flat&logo=Node.js&logoColor=green&color=blueviolet)
- [![Build Status](https://img.shields.io/badge/Css_extension_lang-SASS-informational?style=flat&logo=SASS&logoColor=violet&color=blueviolet)
- [![Build Status](https://img.shields.io/badge/Editor-VS_Code-informational?style=flat&logo=Visual-Studio-Code&logoColor=blue&color=blueviolet)
- [![Build Status](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=Linux&logoColor=yellow&color=blueviolet)
+ - ![Build Status](https://img.shields.io/badge/JavaScript_library-React-informational?style=flat&logo=React&logoColor=aqua&color=blueviolet)
+ - ![Build Status](https://img.shields.io/badge/JavaScript_engine-Node.js-informational?style=flat&logo=Node.js&logoColor=green&color=blueviolet)
+ - ![Build Status](https://img.shields.io/badge/Css_extension_lang-SASS-informational?style=flat&logo=SASS&logoColor=violet&color=blueviolet)
+ - ![Build Status](https://img.shields.io/badge/Editor-VS_Code-informational?style=flat&logo=Visual-Studio-Code&logoColor=blue&color=blueviolet)
+ - ![Build Status](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=Linux&logoColor=yellow&color=blueviolet)
 
 
 ## Installation
