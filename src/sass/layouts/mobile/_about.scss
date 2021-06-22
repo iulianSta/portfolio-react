@@ -1,9 +1,18 @@
 // About setup
 .about {
+  width: 90vw;
   height: 70vh;
   @include flex;
   flex-direction: column;
   margin: 1em;
+  border-right: green 0.5px solid;
+  border-bottom: green 0.5px solid;
+
+  h1 {
+    padding: 0.5rem;
+    border-top: blueviolet 0.5px solid;
+    border-left: blueviolet 0.5px solid;
+  }
 
   .a-para {
     margin: 0.5em;
@@ -19,6 +28,6 @@
   }
 
   .a-link {
-    color: grey;
+    color: blueviolet;
   }
 }
