@@ -1,6 +1,7 @@
 [
   {
     "id": 100,
-    "img": "./logo.png"
+    "img": "./logo.png",
+    "image": "./me.jpg"
   }
 ]
