@@ -1,3 +1,30 @@
+# Portfolio
+## _Iulian Stan_
+
+## Images
+file:///home/dci/Pictures/Screenshot%20from%202021-06-22%2012-50-53.png![image](https://user-images.githubusercontent.com/75793104/122912518-b445fb00-d358-11eb-80fa-d30c4ca4a666.png)
+file:///home/dci/Pictures/Screenshot%20from%202021-06-22%2012-51-06.png![image](https://user-images.githubusercontent.com/75793104/122912562-bf009000-d358-11eb-9522-2b696507fb95.png)
+file:///home/dci/Pictures/Screenshot%20from%202021-06-22%2012-51-15.png![image](https://user-images.githubusercontent.com/75793104/122912595-c6c03480-d358-11eb-9388-543ac7ca6dd1.png)
+file:///home/dci/Pictures/Screenshot%20from%202021-06-22%2012-51-25.png![image](https://user-images.githubusercontent.com/75793104/122912624-cd4eac00-d358-11eb-95b6-82ff000afb09.png)
+file:///home/dci/Pictures/Screenshot%20from%202021-06-22%2012-51-32.png![image](https://user-images.githubusercontent.com/75793104/122912638-d3dd2380-d358-11eb-8b92-e996986142ef.png)
+
+
+## Features
+
+Custom single page web developer personal portfolio
+
+
+## Resources used to build this portfolio:
+
+- "https://img.shields.io/badge/JavaScript_library-React-informational?style=flat&logo=React&logoColor=aqua&color=blueviolet"
+- "https://img.shields.io/badge/JavaScript_engine-Node.js-informational?style=flat&logo=Node.js&logoColor=green&color=blueviolet"
+- "https://img.shields.io/badge/Css_extension_lang-SASS-informational?style=flat&logo=SASS&logoColor=violet&color=blueviolet"
+- "https://img.shields.io/badge/Editor-VS_Code-informational?style=flat&logo=Visual-Studio-Code&logoColor=blue&color=blueviolet"
+- "https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=Linux&logoColor=yellow&color=blueviolet"
+
+
+## Installation
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +95,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## Development
+
+_Iulian Stan_
+
+
+#### Building for source
+
+For personal purpose
+
+## License
+
+MIT
+
+**Free Software**
+
+
+
+
+
+
+
+
+
+
+
+
+
