@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0e37954.chunk.css",
-    "main.js": "/static/js/main.857236ba.chunk.js",
-    "main.js.map": "/static/js/main.857236ba.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f3fada17.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f3fada17.js.map",
-    "static/js/2.37db203d.chunk.js": "/static/js/2.37db203d.chunk.js",
-    "static/js/2.37db203d.chunk.js.map": "/static/js/2.37db203d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.f0e37954.chunk.css.map": "/static/css/main.f0e37954.chunk.css.map",
-    "static/js/2.37db203d.chunk.js.LICENSE.txt": "/static/js/2.37db203d.chunk.js.LICENSE.txt"
+    "main.css": "/iulianSta/portfolio-react.git/static/css/main.f0e37954.chunk.css",
+    "main.js": "/iulianSta/portfolio-react.git/static/js/main.39c16738.chunk.js",
+    "main.js.map": "/iulianSta/portfolio-react.git/static/js/main.39c16738.chunk.js.map",
+    "runtime-main.js": "/iulianSta/portfolio-react.git/static/js/runtime-main.572fc1b1.js",
+    "runtime-main.js.map": "/iulianSta/portfolio-react.git/static/js/runtime-main.572fc1b1.js.map",
+    "static/js/2.37db203d.chunk.js": "/iulianSta/portfolio-react.git/static/js/2.37db203d.chunk.js",
+    "static/js/2.37db203d.chunk.js.map": "/iulianSta/portfolio-react.git/static/js/2.37db203d.chunk.js.map",
+    "index.html": "/iulianSta/portfolio-react.git/index.html",
+    "static/css/main.f0e37954.chunk.css.map": "/iulianSta/portfolio-react.git/static/css/main.f0e37954.chunk.css.map",
+    "static/js/2.37db203d.chunk.js.LICENSE.txt": "/iulianSta/portfolio-react.git/static/js/2.37db203d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3fada17.js",
+    "static/js/runtime-main.572fc1b1.js",
     "static/js/2.37db203d.chunk.js",
     "static/css/main.f0e37954.chunk.css",
-    "static/js/main.857236ba.chunk.js"
+    "static/js/main.39c16738.chunk.js"
   ]
 }
