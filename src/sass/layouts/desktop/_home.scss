@@ -4,6 +4,10 @@
 }
 .profile-img {
   width: 25vw;
+  cursor: pointer;
+  &:hover {
+    filter: grayscale(1);
+  }
 }
 
 h1 {

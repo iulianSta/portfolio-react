@@ -93,11 +93,6 @@ nav {
     background-attachment: fixed;
     opacity: 0;
     animation: opac 0.5s 0.2s forwards;
-
-    // &:hover {
-    //   background-color: $white;
-    //   color: $black;
-    // }
   }
 }
 .hide {
@@ -106,6 +101,7 @@ nav {
   li {
     opacity: 1;
     animation: nopac 0.5s forwards;
+    display: none;
   }
 }
 

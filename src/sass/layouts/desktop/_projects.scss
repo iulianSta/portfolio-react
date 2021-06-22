@@ -1,19 +1,33 @@
 h3 {
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 
 h4 {
   font-size: 1.3em;
 }
 .logo-container {
-  width: 80vw;
+  width: 60vw;
 }
 .skill-logo {
-  width: 35vw;
+  width: 25vw;
 }
 .cards {
-  width: 80vw;
+  width: 60vw;
 }
 .card {
-  width: 70vw;
+  width: 55vw;
+
+  p {
+    font-size: 1.2em;
+  }
+  button:hover {
+    background-color: green;
+  }
+}
+.project-img {
+  width: 40vw;
+  cursor: pointer;
+  &:hover {
+    filter: grayscale(1);
+  }
 }

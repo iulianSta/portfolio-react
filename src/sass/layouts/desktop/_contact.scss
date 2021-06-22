@@ -9,7 +9,7 @@
 
   .c-para {
     height: 10vw;
-    font-size: 1.4em;
+    font-size: 1.2em;
     strong {
       font-size: 1em;
     }
@@ -36,9 +36,14 @@
 
     :last-child {
       width: 8rem;
-      height: 2.5rem;
-      font-size: 1.6em;
+      height: 2rem;
+      font-size: 1.4em;
       border-radius: 10px;
+      cursor: pointer;
+      &:hover {
+        color: black;
+        background-color: blueviolet;
+      }
     }
   }
 }

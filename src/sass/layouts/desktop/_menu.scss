@@ -1,0 +1,17 @@
+.bars,
+.xmenu {
+  cursor: pointer;
+}
+nav {
+  li {
+    height: 1.5em;
+    transition: 0.2s;
+    &:hover {
+      background-color: $white;
+      color: $black;
+    }
+  }
+}
+.profile-img {
+  width: 40vw;
+}
