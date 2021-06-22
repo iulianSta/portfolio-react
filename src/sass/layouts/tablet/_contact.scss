@@ -1,0 +1,43 @@
+.contact {
+  height: 80vh;
+  @include flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .c-para {
+    font-size: 1.6em;
+    strong {
+      font-size: 1.2em;
+    }
+  }
+
+  fieldset {
+    width: 80vw;
+    margin-top: 2rem;
+  }
+  form {
+    :first-child,
+    :nth-child(2) {
+      height: 1.8em;
+      margin: 0.5em 0;
+      border-radius: 10px;
+    }
+    :nth-child(3) {
+      height: 6em;
+      border-radius: 10px;
+    }
+    &:focus {
+      border: green 1px solid;
+    }
+
+    :last-child {
+      width: 8rem;
+      height: 2.5rem;
+      font-size: 1.6em;
+      border-radius: 10px;
+    }
+  }
+}

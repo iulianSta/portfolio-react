@@ -1,0 +1,10 @@
+//Import Layout files
+
+@media only screen and (min-width: 768px) {
+  @import "./_menu";
+  @import "./home";
+  @import "./about";
+  @import "./projects";
+  @import "./contact";
+  @import "./footer";
+}
