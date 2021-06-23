@@ -25,21 +25,9 @@ function App() {
       <Menu />
       <Switch>
         <Route path={`${process.env.PUBLIC_URL}/`} exact component={Home} />
-        <Route
-          path={`${process.env.PUBLIC_URL}/about`}
-          exact
-          component={About}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL}/projects`}
-          exact
-          component={Projects}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL}/contact`}
-          exact
-          component={Contact}
-        />
+        <Route path="/about" exact component={About} />
+        <Route path="/projects" exact component={Projects} />
+        <Route path="/contact" exact component={Contact} />
         <Route path={() => "/home" || "/admin" || "/any-other-word"} />
       </Switch>
       <Footer />
