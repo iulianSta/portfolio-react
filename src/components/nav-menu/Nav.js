@@ -30,7 +30,7 @@ const Nav = () => {
         <div>{navLogo}</div>
       </div>
       <ul className={show ? "show" : "hide"}>
-        <Link to={`${process.env.PUBLIC_URL}/home`}>
+        <Link to={`${process.env.PUBLIC_URL}/`}>
           <li onClick={hideNav}>Home</li>
         </Link>
         <Link to={`${process.env.PUBLIC_URL}/about`}>
