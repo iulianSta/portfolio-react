@@ -30,16 +30,16 @@ const Nav = () => {
         <div>{navLogo}</div>
       </div>
       <ul className={show ? "show" : "hide"}>
-        <Link to="/">
+        <Link to={`${process.env.PUBLIC_URL}/home`}>
           <li onClick={hideNav}>Home</li>
         </Link>
-        <Link to="/about">
+        <Link to={`${process.env.PUBLIC_URL}/about`}>
           <li onClick={hideNav}>About me</li>
         </Link>
-        <Link to="/projects">
+        <Link to={`${process.env.PUBLIC_URL}/projects`}>
           <li onClick={hideNav}>Projects</li>
         </Link>
-        <Link to="/contact">
+        <Link to={`${process.env.PUBLIC_URL}/contact`}>
           <li onClick={hideNav}>Contact</li>
         </Link>
       </ul>
