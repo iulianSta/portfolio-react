@@ -1,7 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
-  "homepage": "http://iulianSta.github.io/portfolio-react/",
+  "homepage": "https://portfolio-react-cvgb8z1xa-iuliansta.vercel.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
