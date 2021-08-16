@@ -1,18 +1,18 @@
 // Import area
-import React, { useState } from "react";
+//import React, { useState } from "react";
 
 // Contact function
 const Contact = () => {
-  const [userInput, setUserInput] = useState("");
+  // const [userInput, setUserInput] = useState("");
 
-  function changeHandle(e) {
-    setUserInput(e.target.value);
-  }
+  // function changeHandle(e) {
+  //   setUserInput(e.target.value);
+  // }
 
-  function submitHandle(e) {
-    e.preventDefault();
-    setUserInput("");
-  }
+  // function submitHandle(e) {
+  //   e.preventDefault();
+  //   setUserInput("");
+  // }
   return (
     <div className="contact">
       <h1 className="c-header">Contact me...</h1>
@@ -24,18 +24,28 @@ const Contact = () => {
         <strong>iulianstangithub@gmail.com</strong>
       </p>
       <fieldset>
-        <legend>You can also send me a direct message:</legend>
-        <form onSubmit={submitHandle}>
+        <legend>
+          You can send me a
+          <a href="mailto:iulianstangithub@gmail.com?subject=Hello&body=Hi Iulian">
+            message
+          </a>{" "}
+          !
+        </legend>
+        {/* <form onSubmit={submitHandle}>
           <input
             type="text"
             value={userInput}
             onChange={changeHandle}
             placeholder="Name"
           />
-          <input type="email" placeholder="E-Mail" />
-          <textarea type="text" placeholder="Your message" />
+          <input type="email" placeholder="E-Mail" onChange={changeHandle} />
+          <textarea
+            type="text"
+            placeholder="Your message"
+            onChange={changeHandle}
+          />
           <button type="submit">Send</button>
-        </form>
+        </form> */}
       </fieldset>
     </div>
   );
