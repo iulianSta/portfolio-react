@@ -17,20 +17,17 @@ const Contact = () => {
     <div className="contact">
       <h1 className="c-header">Contact me...</h1>
       <p className="c-para">
-        If you have any questions or if you want to
-        <br />
-        collaborate with me, you can send me a message to
-        <br />
-        <strong>iulianstangithub@gmail.com</strong>
+        If you have any questions or if you want to collaborate with me, you can
+        send me a direct <br />
+        <a href="mailto:iulianstangithub@gmail.com?subject=Hello&body=Hi Iulian">
+          message
+        </a>{" "}
+        !
       </p>
       <fieldset>
-        <legend>
-          You can send me a
-          <a href="mailto:iulianstangithub@gmail.com?subject=Hello&body=Hi Iulian">
-            message
-          </a>{" "}
-          !
-        </legend>
+        <legend>E-Mail & Location</legend>
+        <strong>iulianstangithub@gmail.com</strong>
+        <p>04600 Altenburg</p>
         {/* <form onSubmit={submitHandle}>
           <input
             type="text"
