@@ -15,13 +15,13 @@ const Nav = () => {
 
   const navLogo = Logo.map((obj) => {
     const { id, img } = obj;
+    return <img key={id} className="logo" src={img} alt="My Logo" />;
     // Old logo
-    // return <img key={id} className="logo" src={img} alt="Iulian Stan Logo" />;
-    return (
-      <video width="150" height="150" controls>
-        <source key={id} src={img} type="video/mp4" />
-      </video>
-    );
+    // return (
+    //   <video width="150" height="150" controls>
+    //     <source key={id} src={img} type="video/mp4" />
+    //   </video>
+    // );
   });
 
   // Navigation menu
