@@ -39,7 +39,7 @@ const Projects = () => {
       <h3>I was able to do the following projects:</h3>
       <div className="cards">{insertImages}</div>
       <button className="gotop">
-        <a href="#">⬆️ Top</a>
+        <a href="#top">⬆️ Top</a>
       </button>
     </div>
   );
