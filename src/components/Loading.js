@@ -11,7 +11,7 @@ const Loading = () => {
           <br />
           Iulian Stan's Portfolio
           <br />
-          web developer
+          fullstack web developer
         </h1>
       </div>
     </React.Fragment>
