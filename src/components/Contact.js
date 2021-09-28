@@ -31,7 +31,9 @@ const Contact = () => {
         <legend>E-Mail</legend>
         <form 
         action="https://formspree.io/f/xeqvdjro"
-        method="POST">
+        method="POST"
+        onSubmit="setTimeout(function(){window.location.reload();},10);"
+        >
           <input
             type="text"
             name="name"
