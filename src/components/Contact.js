@@ -1,18 +1,18 @@
 // Import area
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
 // Contact function
 const Contact = () => {
-  const [userInput, setUserInput] = useState("");
+  // const [userInput, setUserInput] = useState("");
 
-  function changeHandle(e) {
-    setUserInput(e.target.value);
-  }
+  // function changeHandle(e) {
+  //   setUserInput(e.target.value);
+  // }
 
-  function submitHandle(e) {
-    e.preventDefault();
-    setUserInput("");
-  }
+  // function submitHandle(e) {
+  //   e.preventDefault();
+  //   setUserInput("");
+  // }
   return (
     <div className="contact">
       <h1 className="c-header">Contact me...</h1>
