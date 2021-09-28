@@ -9,8 +9,7 @@ const Contact = () => {
   //   setUserInput(e.target.value);
   // }
 
-  function submitHandle(e) {
-    e.preventDefault();
+  function submitHandle() {
     setTimeout(window.location.reload(),5)
   }
   return (
