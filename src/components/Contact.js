@@ -9,10 +9,10 @@ const Contact = () => {
   //   setUserInput(e.target.value);
   // }
 
-  // function submitHandle(e) {
-  //   e.preventDefault();
-  //   setUserInput("");
-  // }
+  function submitHandle(e) {
+    e.preventDefault();
+    window.location.reload();
+  }
   return (
     <div className="contact">
       <h1 className="c-header">Contact me...</h1>
@@ -32,7 +32,7 @@ const Contact = () => {
         <form 
         action="https://formspree.io/f/xeqvdjro"
         method="POST"
-        onSubmit="setTimeout(() => {window.location.reload()},3)"
+        onSubmit={submitHandle}
         >
           <input
             type="text"
