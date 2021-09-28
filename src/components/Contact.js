@@ -32,7 +32,7 @@ const Contact = () => {
         <form 
         action="https://formspree.io/f/xeqvdjro"
         method="POST"
-        onSubmit="setTimeout(function(){window.location.reload();},10);"
+        onsubmit="setTimeout(function(){window.location.reload()},3)"
         >
           <input
             type="text"
