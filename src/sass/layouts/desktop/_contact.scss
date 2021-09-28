@@ -16,10 +16,11 @@
   }
 
   fieldset {
-    width: 60vw;
+    width: 40vw;
     margin-top: 2rem;
   }
   form {
+    width: 100%;
     :first-child,
     :nth-child(2) {
       height: 1.8em;
@@ -43,7 +44,7 @@
       &:hover {
         color: black;
         background-color: blueviolet;
-      }
-    }
-  }
+       }
+     }
+   }
 }

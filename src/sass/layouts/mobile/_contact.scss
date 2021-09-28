@@ -27,31 +27,31 @@
     width: 90vw;
     border: green 0.5px solid;
   }
-  // form {
-  //   width: 100%;
-  //   @include flex;
-  //   flex-direction: column;
-  //   :first-child,
-  //   :nth-child(2),
-  //   :nth-child(3) {
-  //     width: 90%;
-  //     margin: 0.3em;
-  //     text-align: center;
-  //     color: white;
-  //     background-color: black;
-  //     border-bottom: blueviolet 0.5px solid;
-  //     border-radius: 5%;
-  //   }
-  //   &:focus {
-  //     border: green 1px solid;
-  //   }
+  form {
+    width: 90%;
+    @include flex;
+    flex-direction: column;
+    :first-child,
+    :nth-child(2),
+    :nth-child(3) {
+      width: 90%;
+      margin: 0.3em;
+      text-align: center;
+      color: white;
+      background-color: black;
+      border-bottom: blueviolet 0.5px solid;
+      border-radius: 5%;
+    }
+    &:focus {
+      border: green 1px solid;
+    }
 
-  //   :last-child {
-  //     width: 5rem;
-  //     margin: 0.5em;
-  //     font-size: bold;
-  //     color: white;
-  //     background-color: green;
-  //   }
-  // }
+    :last-child {
+      width: 5rem;
+      margin: 0.5em;
+      font-size: bold;
+      color: white;
+      background-color: green;
+    }
+  }
 }
