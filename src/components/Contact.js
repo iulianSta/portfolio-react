@@ -11,7 +11,7 @@ const Contact = () => {
 
   function submitHandle(e) {
     e.preventDefault();
-    window.location.reload();
+    setTimeout(window.location.reload(),5)
   }
   return (
     <div className="contact">
