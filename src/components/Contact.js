@@ -10,7 +10,7 @@ const Contact = () => {
   // }
 
   function submitHandle() {
-    setTimeout(window.location.reload(),5)
+    window.location.reload();
   }
   return (
     <div className="contact">
