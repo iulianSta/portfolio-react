@@ -1,17 +1,15 @@
 // Import area
-// import React, { useState } from "react";
+import React from "react";
+import { useForm, ValidationError } from '@formspree/react';
 
 // Contact function
 const Contact = () => {
-  // const [userInput, setUserInput] = useState("");
-
-  // function changeHandle(e) {
-  //   setUserInput(e.target.value);
-  // }
-// Test github connection comment 
-  function submitHandle(e) {
-    window.location.reload();
+  
+  const [state, handleSubmit] = useForm("xeqvdjro");
+  if (state.succeeded) {
+      return <p>Thank you for contacting with me.</p>;
   }
+  
   return (
     <div className="contact">
       <h1 className="c-header">Contact me...</h1>
@@ -27,25 +25,47 @@ const Contact = () => {
         {/* <legend>E-Mail & Location</legend>
         <strong>iulianstangithub@gmail.com</strong>
         <p>04600 Altenburg</p> */}
-        <legend>E-Mail</legend>
+        <legend>Send me a message</legend>
         <form 
-        action="https://formspree.io/f/xeqvdjro"
-        method="POST"
-        onSubmit={submitHandle}
+        // action="https://formspree.io/f/xeqvdjro"
+        // method="POST"
+        onSubmit={handleSubmit}
         >
           <input
             type="text"
             name="name"
+            id="name"
             placeholder="Name"
           />
-          <input type="email" name="_replyto" placeholder="E-Mail"/>
+          <ValidationError 
+            prefix="Name" 
+            field="name"
+            errors={state.errors}
+          />
+          <input 
+            type="email" 
+            name="email" 
+            id="email" 
+            placeholder="E-Mail"/>
+          <ValidationError 
+            prefix="Email" 
+            field="email"
+            errors={state.errors}
+           />
           <textarea
             type="text"
             name="message"
+            id="message"
             placeholder="Your message"
-          
           />
-          <button type="submit">Send</button>
+          <ValidationError 
+            prefix="Message" 
+            field="message"
+            errors={state.errors}
+          />
+          <button type="submit" disabled={state.submitting}>
+            Send
+          </button>
         </form>
       </fieldset>
     </div>
