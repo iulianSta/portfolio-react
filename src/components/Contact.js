@@ -8,8 +8,8 @@ const Contact = () => {
   // function changeHandle(e) {
   //   setUserInput(e.target.value);
   // }
-
-  function submitHandle() {
+// Test github connection comment 
+  function submitHandle(e) {
     window.location.reload();
   }
   return (
