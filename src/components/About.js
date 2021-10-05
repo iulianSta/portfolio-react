@@ -1,3 +1,4 @@
+import React from "react";
 // About function
 const About = () => {
   return (

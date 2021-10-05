@@ -1,4 +1,5 @@
 // Import area
+import React from "react";
 import Skillz from "../projects.json";
 import Images from "../images.json";
 // Projects function
@@ -39,7 +40,11 @@ const Projects = () => {
       <h3>I was able to do the following projects:</h3>
       <div className="cards">{insertImages}</div>
       <button className="gotop">
-        <a href="#top">⬆️ Top</a>
+        <a href="#top">
+          <span>
+          ⬆️ Top
+          </span>
+        </a>
       </button>
     </div>
   );

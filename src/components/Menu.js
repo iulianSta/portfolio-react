@@ -1,4 +1,5 @@
 // Import Area
+import React from "react";
 import Nav from "./nav-menu/Nav";
 
 // Menu function

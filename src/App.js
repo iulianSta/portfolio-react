@@ -40,7 +40,7 @@ function App() {
           exact
           component={Contact}
         />
-        <Route path={() => "/home" || "/admin" || "/any-other-word"} />
+        {/* <Route path={() => "/home" || "/admin" || "/any-other-word"} />  */}
       </Switch>
       <Footer />
     </Router>

@@ -1,4 +1,5 @@
 // Import area
+import React from "react";
 import Logo from "../logo.json";
 
 // Home funcrion
