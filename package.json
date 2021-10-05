@@ -1,7 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
-  "_homepage": "https://portfolio-react-blond.vercel.app/",
+  "homepage": "https://portfolio-react-blond.vercel.app/",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.4",
