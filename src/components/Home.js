@@ -2,7 +2,7 @@
 import React from "react";
 import Logo from "../logo.json";
 
-// Home funcrion
+// Home function
 const Home = () => {
   const getImage = Logo.map((obj) => {
     const { id, image } = obj;

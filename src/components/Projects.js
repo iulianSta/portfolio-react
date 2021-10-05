@@ -41,9 +41,7 @@ const Projects = () => {
       <div className="cards">{insertImages}</div>
       <button className="gotop">
         <a href="#top">
-          <span>
-          ⬆️ Top
-          </span>
+          Top
         </a>
       </button>
     </div>

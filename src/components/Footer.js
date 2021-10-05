@@ -25,10 +25,10 @@ const Footer = () => {
         </span>
       </div>
       <h5>
-        <span>Made with ❤️ by Iulian Stan </span>
+        <span>Made by Iulian Stan </span>
         <br />
         <span>
-          All copyrights reserved ©️ <span>{year}</span>
+          All copyrights reserved <span>{year}</span>
         </span>
       </h5>
     </div>

@@ -8,7 +8,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xeqvdjro");
 
     if (state.succeeded) {
-       return (<p>Thank you for contacting with me.</p>);
+       return (<p className="c-para">Thank you for contacting with me.</p>);
    } 
    
   
